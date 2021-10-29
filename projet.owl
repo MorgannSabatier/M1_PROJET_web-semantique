@@ -1,0 +1,2955 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/julien/morgann/cinema"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/julien/morgann/cinema">
+    <Prefix name="" IRI="http://www.semanticweb.org/julien/morgann/cinema"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="base" IRI="http://www.semanticweb.org/julien/morgann/cinema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="#auteurs"/>
+        <Literal>Julien Bezançon
+Morgann Sabatier</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>ontologie sur le cinéma</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>version 1.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Acteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allemagne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aventure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comédie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomaineCinema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EtatsUnis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Film"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guerre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hongrie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personnage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicAverti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoyaumeUnis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Réalisateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToutPublic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AProduit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Avec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Joue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#JoueDans"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#JouePar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PersonnageDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ProduitPar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Realise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RealisePar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#antagoniste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#langue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#note"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#origine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#protagoniste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#revenus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sexe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sortie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vivant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agatha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amy_Adams"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Capitaine_Marks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colonel_Weber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr_Louise_Banks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dune"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eric_Heisserer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ian_Donnelly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Incendies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jeanne_Marwan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kim_McCraw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M._Gustave_H."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nawal_Marwan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Notaire_Jean_Lebel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PremierContact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scott_Rudin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serge_X"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simon_Marwan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wes_Anderson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zero_Moustafa"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#auteurs"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Acteur"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Personne"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#JoueDans"/>
+                <Class IRI="#Film"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Producteur"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Personne"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#AProduit"/>
+                <Class IRI="#Film"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Réalisateur"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Personne"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#Realise"/>
+                <Class IRI="#Film"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acteur"/>
+        <Class IRI="#Personne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allemagne"/>
+        <Class IRI="#Pays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aventure"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <Class IRI="#Pays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <Class IRI="#DomaineCinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comédie"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drame"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epique"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EtatsUnis"/>
+        <Class IRI="#Pays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Film"/>
+        <Class IRI="#DomaineCinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genre"/>
+        <Class IRI="#DomaineCinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guerre"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hongrie"/>
+        <Class IRI="#Pays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pays"/>
+        <Class IRI="#DomaineCinema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producteur"/>
+        <Class IRI="#Personne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicAverti"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoyaumeUnis"/>
+        <Class IRI="#Pays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Réalisateur"/>
+        <Class IRI="#Personne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SF"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thriller"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToutPublic"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#DomaineCinema"/>
+        <Class IRI="#Personnage"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DomaineCinema"/>
+        <Class IRI="#Personne"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Personnage"/>
+        <Class IRI="#Personne"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PublicAverti"/>
+        <Class IRI="#ToutPublic"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Allemagne"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aventure"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comédie"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drame"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EtatsUnis"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToutPublic"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Agatha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Capitaine_Marks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Colonel_Weber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Réalisateur"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Dr_Louise_Banks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aventure"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Canada"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epique"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EtatsUnis"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hongrie"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoyaumeUnis"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SF"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToutPublic"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Eric_Heisserer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Eric_Heisserer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Ian_Donnelly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Canada"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drame"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guerre"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicAverti"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thriller"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Jeanne_Marwan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Kim_McCraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#M._Gustave_H."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Nawal_Marwan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Notaire_Jean_Lebel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Canada"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drame"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EtatsUnis"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SF"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToutPublic"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Scott_Rudin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Scott_Rudin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Serge_X"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Simon_Marwan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personne"/>
+        <NamedIndividual IRI="#Wes_Anderson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Réalisateur"/>
+        <NamedIndividual IRI="#Wes_Anderson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Zero_Moustafa"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Amy_Adams"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#Agatha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#M._Gustave_H."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#Serge_X"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#Zero_Moustafa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ProduitPar"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#Scott_Rudin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RealisePar"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <NamedIndividual IRI="#Wes_Anderson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+        <NamedIndividual IRI="#Capitaine_Marks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Agatha"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Agatha"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+        <NamedIndividual IRI="#Dr_Louise_Banks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Capitaine_Marks"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Capitaine_Marks"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Colonel_Weber"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Colonel_Weber"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Realise"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+        <NamedIndividual IRI="#Dune"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Realise"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Realise"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Dr_Louise_Banks"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Dr_Louise_Banks"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RealisePar"/>
+        <NamedIndividual IRI="#Dune"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AProduit"/>
+        <NamedIndividual IRI="#Eric_Heisserer"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+        <NamedIndividual IRI="#Colonel_Weber"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Ian_Donnelly"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Ian_Donnelly"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Jeanne_Marwan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Nawal_Marwan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Notaire_Jean_Lebel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Simon_Marwan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ProduitPar"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Kim_McCraw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RealisePar"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Jeanne_Marwan"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Jeanne_Marwan"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+        <NamedIndividual IRI="#Ian_Donnelly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+        <NamedIndividual IRI="#PremierContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AProduit"/>
+        <NamedIndividual IRI="#Kim_McCraw"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+        <NamedIndividual IRI="#Nawal_Marwan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#M._Gustave_H."/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#M._Gustave_H."/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+        <NamedIndividual IRI="#Serge_X"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+        <NamedIndividual IRI="#Simon_Marwan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+        <NamedIndividual IRI="#Jeanne_Marwan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Nawal_Marwan"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Nawal_Marwan"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Notaire_Jean_Lebel"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Notaire_Jean_Lebel"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="#Capitaine_Marks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="#Colonel_Weber"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="#Dr_Louise_Banks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="#Ian_Donnelly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Avec"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ProduitPar"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="#Eric_Heisserer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#RealisePar"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+        <NamedIndividual IRI="#M._Gustave_H."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+        <NamedIndividual IRI="#Notaire_Jean_Lebel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+        <NamedIndividual IRI="#Agatha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AProduit"/>
+        <NamedIndividual IRI="#Scott_Rudin"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Serge_X"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Serge_X"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Simon_Marwan"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Simon_Marwan"/>
+        <NamedIndividual IRI="#Incendies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Joue"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+        <NamedIndividual IRI="#Zero_Moustafa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JoueDans"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Realise"/>
+        <NamedIndividual IRI="#Wes_Anderson"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#JouePar"/>
+        <NamedIndividual IRI="#Zero_Moustafa"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <NamedIndividual IRI="#Zero_Moustafa"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duree"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#langue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">en</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#langue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">fr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#note"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#revenus"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">172936941</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sortie"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+        <Literal>canadienne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Agatha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Agatha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+        <Literal>américaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+        <Literal>femme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Amy_Adams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Capitaine_Marks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Capitaine_Marks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Colonel_Weber"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Colonel_Weber"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+        <Literal>canadienne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Denis_Villeneuve"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Dr_Louise_Banks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Dr_Louise_Banks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#langue"/>
+        <NamedIndividual IRI="#Dune"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">en</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sortie"/>
+        <NamedIndividual IRI="#Dune"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Eric_Heisserer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Eric_Heisserer"/>
+        <Literal>américaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Eric_Heisserer"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Eric_Heisserer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+        <Literal>américaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Forest_Whitaker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Ian_Donnelly"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Ian_Donnelly"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duree"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">131</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#langue"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">ar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#langue"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">en</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#langue"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">fr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#note"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#revenus"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15671656</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sortie"/>
+        <NamedIndividual IRI="#Incendies"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Jeanne_Marwan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Jeanne_Marwan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+        <Literal>américaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Jeremy_Renner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Kim_McCraw"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Kim_McCraw"/>
+        <Literal>canadienne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Kim_McCraw"/>
+        <Literal>femme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Kim_McCraw"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+        <Literal>belge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+        <Literal>femme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Lubna_Azabal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#M._Gustave_H."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#M._Gustave_H."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+        <Literal>française</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Mathieu_Amalric"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+        <Literal>canadienne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Maxim_Gaudette"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+        <Literal>canadienne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+        <Literal>femme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Mélissa_Désormeaux-Poulin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Nawal_Marwan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Nawal_Marwan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Notaire_Jean_Lebel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Notaire_Jean_Lebel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duree"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">111</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#langue"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">en</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#langue"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">ru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#langue"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">zh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#note"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#revenus"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100546139</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sortie"/>
+        <NamedIndividual IRI="#PremierContact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">58</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+        <Literal>anglaise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Ralph_Fiennes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+        <Literal>canadienne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Rémy_Girard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+        <Literal>américaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+        <Literal>irlandaise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+        <Literal>femme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Saoirse_Ronan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Scott_Rudin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Scott_Rudin"/>
+        <Literal>américaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Scott_Rudin"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Scott_Rudin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Serge_X"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Serge_X"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Simon_Marwan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Simon_Marwan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+        <Literal>américaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Tony_Revolori"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Wes_Anderson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">51</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#origine"/>
+        <NamedIndividual IRI="#Wes_Anderson"/>
+        <Literal>américaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sexe"/>
+        <NamedIndividual IRI="#Wes_Anderson"/>
+        <Literal>homme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vivant"/>
+        <NamedIndividual IRI="#Wes_Anderson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#antagoniste"/>
+        <NamedIndividual IRI="#Zero_Moustafa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#protagoniste"/>
+        <NamedIndividual IRI="#Zero_Moustafa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AvecRole"/>
+        <ObjectProperty IRI="#PersonnageDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#AProduit"/>
+        <ObjectProperty IRI="#ProduitPar"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Avec"/>
+        <ObjectProperty IRI="#JoueDans"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Joue"/>
+        <ObjectProperty IRI="#JouePar"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Realise"/>
+        <ObjectProperty IRI="#RealisePar"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#RealisePar"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Realise"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#AProduit"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Avec"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#JoueDans"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#PersonnageDe"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#ProduitPar"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Realise"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#RealisePar"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Joue"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#JouePar"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#AProduit"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Avec"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#JoueDans"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#PersonnageDe"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#ProduitPar"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Realise"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#RealisePar"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#AProduit"/>
+        <Class IRI="#Personne"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#JoueDans"/>
+        <Class IRI="#Personne"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#JouePar"/>
+        <Class IRI="#Personnage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <Class IRI="#Personnage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Realise"/>
+        <Class IRI="#Personne"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AProduit"/>
+        <Class IRI="#Film"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#JoueDans"/>
+        <Class IRI="#Film"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#JouePar"/>
+        <Class IRI="#Personne"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PersonnageDe"/>
+        <Class IRI="#Film"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Realise"/>
+        <Class IRI="#Film"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#age"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#antagoniste"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#duree"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#note"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#protagoniste"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#revenus"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#sexe"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#sortie"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#vivant"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Personne"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#antagoniste"/>
+        <Class IRI="#Personnage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duree"/>
+        <Class IRI="#Film"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#langue"/>
+        <Class IRI="#Film"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#note"/>
+        <Class IRI="#Film"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#origine"/>
+        <Class IRI="#Personne"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#protagoniste"/>
+        <Class IRI="#Personnage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#revenus"/>
+        <Class IRI="#Film"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sexe"/>
+        <Class IRI="#Personne"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sortie"/>
+        <Class IRI="#Film"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vivant"/>
+        <Class IRI="#Personne"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#antagoniste"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duree"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#langue"/>
+        <Datatype abbreviatedIRI="xsd:language"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#note"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#origine"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#protagoniste"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#revenus"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sexe"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sortie"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vivant"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#age"/>
+        <DataProperty IRI="#antagoniste"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#age"/>
+        <DataProperty IRI="#duree"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#age"/>
+        <DataProperty IRI="#langue"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#age"/>
+        <DataProperty IRI="#note"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#age"/>
+        <DataProperty IRI="#protagoniste"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#age"/>
+        <DataProperty IRI="#revenus"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#age"/>
+        <DataProperty IRI="#sortie"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#antagoniste"/>
+        <DataProperty IRI="#duree"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#antagoniste"/>
+        <DataProperty IRI="#langue"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#antagoniste"/>
+        <DataProperty IRI="#note"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#antagoniste"/>
+        <DataProperty IRI="#origine"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#antagoniste"/>
+        <DataProperty IRI="#revenus"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#antagoniste"/>
+        <DataProperty IRI="#sexe"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#antagoniste"/>
+        <DataProperty IRI="#sortie"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#antagoniste"/>
+        <DataProperty IRI="#vivant"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#duree"/>
+        <DataProperty IRI="#origine"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#duree"/>
+        <DataProperty IRI="#protagoniste"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#duree"/>
+        <DataProperty IRI="#sexe"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#duree"/>
+        <DataProperty IRI="#vivant"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#langue"/>
+        <DataProperty IRI="#origine"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#langue"/>
+        <DataProperty IRI="#protagoniste"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#langue"/>
+        <DataProperty IRI="#sexe"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#langue"/>
+        <DataProperty IRI="#vivant"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#note"/>
+        <DataProperty IRI="#origine"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#note"/>
+        <DataProperty IRI="#protagoniste"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#note"/>
+        <DataProperty IRI="#sexe"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#note"/>
+        <DataProperty IRI="#vivant"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#origine"/>
+        <DataProperty IRI="#protagoniste"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#origine"/>
+        <DataProperty IRI="#revenus"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#origine"/>
+        <DataProperty IRI="#sortie"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#protagoniste"/>
+        <DataProperty IRI="#revenus"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#protagoniste"/>
+        <DataProperty IRI="#sexe"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#protagoniste"/>
+        <DataProperty IRI="#sortie"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#protagoniste"/>
+        <DataProperty IRI="#vivant"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#revenus"/>
+        <DataProperty IRI="#sexe"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#revenus"/>
+        <DataProperty IRI="#vivant"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#sexe"/>
+        <DataProperty IRI="#sortie"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#sortie"/>
+        <DataProperty IRI="#vivant"/>
+    </DisjointDataProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#AvecRole</IRI>
+        <Literal xml:lang="fr">Liaison entre Personnage et Film
+Personnage DANS Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#AvecRole</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#AvecRole</IRI>
+        <Literal xml:lang="fr">AvecRole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel</IRI>
+        <Literal xml:lang="fr">Un film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#TheGrandBudapestHotel</IRI>
+        <Literal>TheGrandBudapestHotel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/chupa/ontologies/2021/2/untitled-ontology-10#Mark_O&apos;Brien</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AProduit</IRI>
+        <Literal xml:lang="fr">Liaison entre Producteur et Film
+Producteur DE Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#AProduit</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AProduit</IRI>
+        <Literal xml:lang="fr">AProduit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Acteur</IRI>
+        <Literal xml:lang="fr">Les acteurs des films de l&apos;ontologie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Acteur</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Acteur</IRI>
+        <Literal>Acteur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Agatha</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Allemagne</IRI>
+        <Literal xml:lang="fr">Un pays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Allemagne</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Allemagne</IRI>
+        <Literal>Allemagne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Amy_Adams</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Avec</IRI>
+        <Literal xml:lang="fr">Liaison entre Personne et Film
+Film AVEC Personne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Avec</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Avec</IRI>
+        <Literal xml:lang="fr">Avec</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aventure</IRI>
+        <Literal xml:lang="fr">Un genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Aventure</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Aventure</IRI>
+        <Literal>Aventure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Canada</IRI>
+        <Literal xml:lang="fr">Un pays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Canada</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Canada</IRI>
+        <Literal>Canada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Capitaine_Marks</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Classification</IRI>
+        <Literal xml:lang="fr">Les différentes classifications des films de l&apos;ontologie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Classification</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Classification</IRI>
+        <Literal>Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Colonel_Weber</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Comédie</IRI>
+        <Literal xml:lang="fr">Un genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Comédie</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Comédie</IRI>
+        <Literal>Comédie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Denis_Villeneuve</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DomaineCinema</IRI>
+        <Literal xml:lang="fr">Ensemble des classes concernant directement les films</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DomaineCinema</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DomaineCinema</IRI>
+        <Literal>DomaineCinema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Dr_Louise_Banks</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Drame</IRI>
+        <Literal xml:lang="fr">Un genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Drame</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Drame</IRI>
+        <Literal>Drame</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Epique</IRI>
+        <Literal xml:lang="fr">Un genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Epique</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Epique</IRI>
+        <Literal>Epique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Eric_Heisserer</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EtatsUnis</IRI>
+        <Literal xml:lang="fr">Un pays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#EtatsUnis</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EtatsUnis</IRI>
+        <Literal>EtatsUnis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Film</IRI>
+        <Literal xml:lang="fr">Les films introduits dans l&apos;ontologie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Film</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Film</IRI>
+        <Literal>Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Forest_Whitaker</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Genre</IRI>
+        <Literal xml:lang="fr">Les genres cinématographiques des films de l&apos;ontologie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Genre</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genre</IRI>
+        <Literal>Genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Guerre</IRI>
+        <Literal xml:lang="fr">Un genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Guerre</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Guerre</IRI>
+        <Literal>Guerre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hongrie</IRI>
+        <Literal xml:lang="fr">Un pays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Hongrie</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hongrie</IRI>
+        <Literal>Hongrie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ian_Donnelly</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Jeanne_Marwan</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Jeremy_Renner</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Joue</IRI>
+        <Literal xml:lang="fr">Liaison entre Personne et Personnage
+Personne JOUANT Personnage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Joue</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Joue</IRI>
+        <Literal xml:lang="fr">AJoue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#JoueDans</IRI>
+        <Literal xml:lang="fr">Liaison entre Personne et Film
+Personne DANS Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#JoueDans</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#JoueDans</IRI>
+        <Literal xml:lang="fr">JoueDans</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#JouePar</IRI>
+        <Literal xml:lang="fr">Liaison entre Personne et Personnage
+Personnage JOUE PAR personne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#JouePar</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#JouePar</IRI>
+        <Literal xml:lang="fr">JouePar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Kim_McCraw</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Lubna_Azabal</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#M._Gustave_H.</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Mathieu_Amalric</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Maxim_Gaudette</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Mélissa_Désormeaux-Poulin</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Nawal_Marwan</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Notaire_Jean_Lebel</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pays</IRI>
+        <Literal xml:lang="fr">Les pays d&apos;origine des films de l&apos;ontologie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Pays</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pays</IRI>
+        <Literal>Pays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Personnage</IRI>
+        <Literal xml:lang="fr">Ensemble des personnages apparaissant dans les films</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Personnage</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Personnage</IRI>
+        <Literal>Personnage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PersonnageDe</IRI>
+        <Literal xml:lang="fr">Liaison entre Personnage et Film
+Personnage DANS Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PersonnageDe</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PersonnageDe</IRI>
+        <Literal xml:lang="fr">PersonnageDe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Personne</IRI>
+        <Literal xml:lang="fr">Ensemble des personnes participant aux films</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Personne</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Personne</IRI>
+        <Literal>Personne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Producteur</IRI>
+        <Literal xml:lang="fr">Les producteurs des films de l&apos;ontologie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Producteur</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Producteur</IRI>
+        <Literal>Producteur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProduitPar</IRI>
+        <Literal xml:lang="fr">Liaison entre Producteur et Film
+Film DE Producteur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ProduitPar</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProduitPar</IRI>
+        <Literal xml:lang="fr">ProduitPar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PublicAverti</IRI>
+        <Literal xml:lang="fr">Une classification de film avec une limite d&apos;âge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PublicAverti</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PublicAverti</IRI>
+        <Literal>PublicAverti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ralph_Fiennes</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Realise</IRI>
+        <Literal xml:lang="fr">Liaison entre Realisateur et Film
+Realisateur DU Film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Realise</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Realise</IRI>
+        <Literal xml:lang="fr">Realise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RealisePar</IRI>
+        <Literal xml:lang="fr">Liaison entre Realisateur et Film
+Film DE Realisateur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RealisePar</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RealisePar</IRI>
+        <Literal xml:lang="fr">RealisePar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoyaumeUnis</IRI>
+        <Literal xml:lang="fr">Un pays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RoyaumeUnis</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RoyaumeUnis</IRI>
+        <Literal>RoyaumeUnis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Réalisateur</IRI>
+        <Literal xml:lang="fr">Les réalisateurs des films de l&apos;ontologie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Réalisateur</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Réalisateur</IRI>
+        <Literal>Realisateur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Rémy_Girard</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SF</IRI>
+        <Literal xml:lang="fr">Un genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#SF</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SF</IRI>
+        <Literal>SF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Saoirse_Ronan</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Scott_Rudin</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Serge_X</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Simon_Marwan</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thriller</IRI>
+        <Literal xml:lang="fr">Un genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Thriller</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Thriller</IRI>
+        <Literal>Thriller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Tony_Revolori</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ToutPublic</IRI>
+        <Literal xml:lang="fr">Une classification de film sans limite d&apos;âge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ToutPublic</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ToutPublic</IRI>
+        <Literal>ToutPublic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Wes_Anderson</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Zero_Moustafa</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#age</IRI>
+        <Literal xml:lang="fr">Personne
+Indique l&apos;âge de la personne
+int: âge en année de la personne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#age</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#age</IRI>
+        <Literal xml:lang="fr">age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#antagoniste</IRI>
+        <Literal xml:lang="fr">Personnage
+Précise si le personnage est antagoniste ou non
+boolean: true si il est antagoniste, false sinon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#antagoniste</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#antagoniste</IRI>
+        <Literal xml:lang="fr">antagoniste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#duree</IRI>
+        <Literal xml:lang="fr">Film
+Durée du film
+int: on indique la durée en minute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#duree</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#duree</IRI>
+        <Literal xml:lang="fr">Duree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#langue</IRI>
+        <Literal xml:lang="fr">Film
+Langue du film. Peut y en avoir plusieurs
+language: on prend les initiales du language utilisé dans le film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#langue</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#langue</IRI>
+        <Literal xml:lang="fr">langue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#note</IRI>
+        <Literal xml:lang="fr">Film
+Note du film, prise sur Allociné
+decimal: les notes sont sur 5, et utilisent des décimaux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#note</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#note</IRI>
+        <Literal xml:lang="fr">note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#note</IRI>
+        <Literal xml:lang="fr">https://www.allocine.fr/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#origine</IRI>
+        <Literal xml:lang="fr">Personne
+Précise l&apos;origine de la personne. Peut y en avoir plusieurs
+string: origine de la personne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#origine</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#origine</IRI>
+        <Literal xml:lang="fr">origine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#protagoniste</IRI>
+        <Literal xml:lang="fr">Personnage
+Précise si le personnage est protagoniste ou non
+boolean: true si il est protagoniste, false sinon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#protagoniste</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#protagoniste</IRI>
+        <Literal xml:lang="fr">protagoniste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#revenus</IRI>
+        <Literal xml:lang="fr">Film
+Revenus du film
+int: on indique le montant qu&apos;a rapporté le film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#revenus</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#revenus</IRI>
+        <Literal xml:lang="fr">revenus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sexe</IRI>
+        <Literal xml:lang="fr">Personne
+Indique l&apos;e sexe de la personne
+string: type choisi car un choix binaire (homme femme) ne suffit pas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sexe</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sexe</IRI>
+        <Literal xml:lang="fr">sexe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sortie</IRI>
+        <Literal xml:lang="fr">Film
+Année de sortie du film
+int: on indique seulement l&apos;année de sortie du film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#sortie</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sortie</IRI>
+        <Literal xml:lang="fr">sortie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#vivant</IRI>
+        <Literal xml:lang="fr">Personne
+Indique si la personne est en vie
+boolean: true si la personne est en vie, false sinon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#vivant</IRI>
+        <IRI>#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#vivant</IRI>
+        <Literal xml:lang="fr">vivant</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
